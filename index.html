@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="“Pragma”" content="”no-cache”" />
+    <meta http-equiv="“Expires”" content="”-1″" />
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+
+    <title>Portfolio Project</title>
+  </head>
+
+  <body>
+    
+    <nav class="sidenav">
+      <div class="nav-item"><a href="#" id="about-nav">About</a></div>
+      <div class="nav-item"><a href="#" id="projects-nav">Projects</a></div>
+      <div class="nav-item"><a href="#" id="skills-nav">Skills</a></div>
+      <div class="nav-item"><a href="#" id="career-nav">Career</a></div>
+      <div class="nav-item"><a href="#" id="education-nav">Education</a></div>
+      <div class="nav-item"><a href="#" id="contact-nav">Contact</a></div>
+    </nav>
+
+    <div class="jumbotron text-center" id="title">
+      <h1>Raul Chavez Jr.</h1>
+      <p>Software Developer, Computer Engineer</p>
+    </div>
+
+    <div class="summary" id="about">
+      <h3>Who am I?</h3>
+      <p class="about-summary">
+        I am a veteran, student, and graduate with a major in computer
+        engineering and a minor in business administration. I have a year of
+        experience working as a developer creating internal applications that
+        employees use on a daily basis. I also have experience with machine
+        learning and neural networks in a research capacity and threw courses. I
+        have 2 semesters of a master in computer science and continuing.
+      </p>
+    </div>
+
+    <div class="container" id="portfolio-container">
+      <h3 id="portfolio-header">Portfolio</h3>
+      <br />
+      <div class="row" id="portfolio-projects">
+        <div class="col-sm-4">
+          <div class="project-description" id="projects">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg"
+              id="projects-button"
+            >
+              Learn More
+            </button>
+            <img
+              src="../images/GiftLink.png"
+              alt="GiftLink project"
+              class="portfolio-image"
+            />
+            <img
+              src="../images/GiftLink-2.png"
+              alt="GiftLink project second image"
+              style="border-top: 10px solid #004953"
+              class="portfolio-image"
+            />
+            <h3 class="projects-title">GiftLink</h3>
+            <p>
+              Website that is used to give household items to members of the
+              community to promote recycling.
+            </p>
+            <p>Uses React, Node.js, MongoDB, Docker, and more.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="project-description" id="project-2">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg"
+              id="project-2-button"
+            >
+              Learn More
+            </button>
+            <img
+              src="../images/air-pollution-autoencoder.png"
+              alt="autoencoder project"
+              class="portfolio-image"
+            />
+            <h3 class="projects-title">Air Pollution Neural Network</h3>
+            <p>
+              A project that uses a linear component analysis called PCA and an
+              artificial neural network called autoencoder to create a model
+              that finds deep relationships with pollutants and a second factor.
+            </p>
+            <p>This project was built on Jupyter Notebook using Python.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="project-description" id="project-3">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg"
+              id="project-3-button"
+              aria-pressed="true"
+            >
+              See More
+            </button>
+            <img
+              src="../images/github.png"
+              alt="GitHub logo"
+              class="portfolio-image"
+            />
+            <h3 class="projects-title">GitHub</h3>
+            <p>Come check out my other projects on GitHub.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary" id="skills">
+      <h3>Skill Summary</h3>
+      <div class="row">
+        <img
+          src="../images/c-.png"
+          alt="c++ logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="C++"
+        />
+        <img
+          src="../images/c-sharp.png"
+          alt="c# logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="C#"
+        />
+        <img
+          src="../images/html-5.png"
+          alt="html-logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="HTML"
+        />
+        <img
+          src="../images/css-3.png"
+          alt="css logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="CSS"
+        />
+        <img
+          src="../images/js.png"
+          alt="js logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="JavaScript"
+        />
+        <img
+          src="../images/react.png"
+          alt="react logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="React"
+        />
+        <img
+          src="../images/typescript.png"
+          alt="typescript logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="TypeScript"
+        />
+        <img
+          src="../images/python.png"
+          alt="python logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Python"
+        />
+        <img
+          src="../images/dart.png"
+          alt="dart logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Dart"
+        />
+        <img
+          src="../images/docker.png"
+          alt="docker logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Docker"
+        />
+        <img
+          src="../images/mongodb.png"
+          alt="mongodb logo"
+          class="col-md-1"
+          id="logo"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="MongoDB"
+        />
+        <img
+          src="../images/nodejs.png"
+          alt="NodeJS"
+          class="col-md-1"
+          id="logo"
+          style="filter: invert(1)"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="NodeJS"
+        />
+      </div>
+      <ul id="summary-bullet">
+        <li>Full stack web developer</li>
+        <li>Machine learning and deep learning</li>
+        <li>Hardware, electrical, and software engineering principles</li>
+      </ul>
+    </div>
+
+    <div class="summary" id="career">
+      <h3>Career Highlights</h3>
+      <ul>
+        <li>
+          <span class="sub-title">Application Developer</span> at
+          <span class="sub-company">TS Banking Group</span> - Created
+          internal-use applications using React/TypeScript/Node.js/SharePoint
+          for multiple departments.
+        </li>
+        <li>
+          <span class="sub-title">Summer Research</span> at
+          <span class="sub-company">University of North Texas</span> - Created
+          an artificial neural network model working Auto-Encoders.
+        </li>
+        <li>
+          <span class="sub-title">Heavy Equipment Technician</span> at
+          <span class="sub-company">Hertz Equipment Rental and HoltCAT</span> -
+          Troubleshooting, refurbishing, and servicing heavy/construction
+          equipment.
+        </li>
+        <li>
+          <span class="sub-title">Wheeled Vehicle Mechanic</span> at
+          <span class="sub-company">U.S. Army</span> - Troubleshooting and
+          servicing diesel equipment.
+        </li>
+      </ul>
+    </div>
+
+    <div class="summary" id="education">
+      <h3>Education</h3>
+      <ul>
+        <li>
+          <span class="sub-title">University of Texas Rio Grande Valley</span> -
+          <span class="sub-company">Edinburgh, TX</span> - Master of Science in
+          Computer Science (current)
+        </li>
+        <li>
+          <span class="sub-title">University of Texas Rio Grande Valley</span> -
+          <span class="sub-company">Brownsville, TX</span> - Bachelor of Science
+          in Computer Engineering with minor in Business Administration
+        </li>
+      </ul>
+    </div>
+
+    <div class="summary" id="contact">
+      <h3>Contact</h3>
+      <ul>
+        <li>
+          <span class="sub-title">Email:</span>
+          <a
+            class="contact-links"
+            href="mailto:Raulchavezjr7@gmail.com"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Tap to email"
+            >Raulchavezjr7@gmail.com</a
+          >
+        </li>
+        <li>
+          <span class="sub-title">linkedin:</span>
+          <a
+            class="contact-links"
+            href=""
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Coming Soon"
+            >...</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+
+  <footer>
+    <p>© Copyright 2025 Raul Chavez Jr.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</html>

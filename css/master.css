@@ -1,0 +1,216 @@
+body {
+  background-color: #251906;
+  color: #efefef; /*#efefef*/
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/grunge.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#title {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #004953),
+    url("../images/excavator.jpg");
+  background-color: #0d0d0dad;
+  background-position: center;
+  color: #f26419; /*#F26419*/
+  border-bottom-style: solid;
+  border-color: #060c39;
+  -webkit-text-stroke: 0.1px black;
+}
+
+#portfolio-container {
+  color: #004953;
+  font-family: "Inter", sans-serif;
+}
+
+#portfolio-header {
+  color: #f26419;
+  font-family: "Inter", sans-serif;
+  margin: auto;
+  width: fit-content;
+}
+
+.summary {
+  text-align: center;
+  width: 60vw;
+  margin: auto;
+  min-width: 300px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+footer {
+  margin: auto;
+  width: fit-content;
+}
+
+.project-description {
+  background: linear-gradient(45deg in hsl, #004953 45%, #33658a);
+  color: #efefef;
+  padding: 2vw;
+  height: 100%;
+  border-radius: 15px;
+  min-width: 180px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+#project-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.btn-primary {
+  background-color: #f26419;
+  border-color: #f26419;
+  top: 25%;
+  z-index: 3;
+  position: relative;
+  width: 50%;
+  white-space: normal;
+  display: none;
+}
+
+#portfolio-projects {
+  display: flex;
+}
+
+.portfolio-image {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 auto;
+  object-fit: cover;
+}
+
+.projects-title {
+  color: #f6ae2d;
+}
+
+h3 {
+  color: #f26419;
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+ul {
+  list-style: none;
+  text-align: start;
+  display: inline-block;
+}
+ul li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+ul li::before {
+  content: "";
+  background-image: url("../images/code.png");
+  height: 17px;
+  width: 17px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  background-size: cover;
+  filter: invert(85%) sepia(36%) saturate(4486%) hue-rotate(339deg)
+    brightness(100%) contrast(100%);
+}
+#skill-summary {
+  width: 60vw;
+}
+
+#logo {
+  min-width: 60px;
+  max-width: 10vw;
+  margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 750px) {
+  #portfolio-projects {
+    display: block;
+  }
+
+  .project-description {
+    background-color: #004953;
+    color: #efefef;
+    padding: 2vw;
+    border-radius: 15px;
+    margin: 5vh;
+  }
+  .sidenav a {
+    padding-top: 0.7vh !important;
+    padding-bottom: 0.5vh !important;
+  }
+}
+
+.sub-title {
+  color: #004953;
+  font-weight: bold;
+}
+.sub-company {
+  color: #86bbd8;
+}
+
+.sidenav a {
+  left: -110px;
+  transition: 0.3s;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+  z-index: 1;
+  padding-left: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.sidenav a:hover {
+  left: 0;
+}
+
+#about-nav {
+  background: linear-gradient(90deg, #f26419 70%, transparent);
+  top: 35%;
+  height: 5vh;
+}
+
+#projects-nav {
+  background: linear-gradient(90deg, #f6ae2d 70%, transparent);
+  top: 40%;
+  height: 5vh;
+}
+#skills-nav {
+  background: linear-gradient(90deg, #68cf84 70%, transparent);
+  top: 45%;
+  height: 5vh;
+}
+#career-nav {
+  background: linear-gradient(90deg, #86bbd8 70%, transparent);
+  top: 50%;
+  height: 5vh;
+}
+#education-nav {
+  background: linear-gradient(90deg, #33658a 70%, transparent);
+  top: 55%;
+  height: 5vh;
+  padding-left: 2vh;
+}
+#contact-nav {
+  background: linear-gradient(90deg, #004953 70%, transparent);
+  top: 60%;
+  height: 5vh;
+}
+
+.contact-links {
+  color: #f6ae2d;
+}
