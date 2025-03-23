@@ -8,6 +8,7 @@ const project1 = document.getElementById("projects");
 const project2 = document.getElementById("project-2");
 const project3 = document.getElementById("project-3");
 
+//Function that handles user clicks in floating navbar
 function navHandler(navItem) {
   console.log(navItem.target);
   navItem.preventDefault();
@@ -26,6 +27,7 @@ careerNav.addEventListener("click", navHandler);
 educationNav.addEventListener("click", navHandler);
 contactNav.addEventListener("click", navHandler);
 
+//Function that handles the gray out and shows the link button when mouse hoovers over project 
 function mouseenter(element) {
   element.preventDefault();
   console.log(element.target.id);
@@ -44,6 +46,7 @@ function mouseenter(element) {
   document.getElementById(`${target}-button`).style.display = "inline";
 }
 
+//Function that handles the removal of gray out and hides the link button when mouse hoovers over project 
 function mouseleave(element) {
   element.preventDefault();
   const target = element.target.id;
@@ -68,6 +71,7 @@ project1.addEventListener("mouseleave", mouseleave);
 project2.addEventListener("mouseleave", mouseleave);
 project3.addEventListener("mouseleave", mouseleave);
 
+//Function that redirect user to correct link when project button is pressed.
 function buttonHandler(element) {
   element.preventDefault();
   const target = element.target.id;

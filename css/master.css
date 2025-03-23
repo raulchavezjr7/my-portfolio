@@ -199,6 +199,7 @@ ul li::before {
   top: 50%;
   height: 5vh;
 }
+
 #education-nav {
   background: linear-gradient(90deg, #33658a 70%, transparent);
   top: 55%;
@@ -214,3 +215,6 @@ ul li::before {
 .contact-links {
   color: #f6ae2d;
 }
+ footer{
+  text-align: center;
+ }
