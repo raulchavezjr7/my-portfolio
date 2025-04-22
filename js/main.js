@@ -80,7 +80,7 @@ function buttonHandler(element) {
     case "projects-button":
       window
         .open(
-          "https://github.com/raulchavezjr7/fullstack-capstone-project/",
+          "https://github.com/raulchavezjr7/online-training",
           "_blank"
         )
         .focus();

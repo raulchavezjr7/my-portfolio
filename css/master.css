@@ -168,10 +168,13 @@ ul li::before {
   color: rgb(255, 255, 255);
   border-radius: 0 5px 5px 0;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   padding-left: 4vh;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  @media screen and (min-height: 950px) {
+    padding-left: 2vh;
+  }
 }
 
 .sidenav a:hover {
@@ -205,6 +208,9 @@ ul li::before {
   top: 55%;
   height: 5vh;
   padding-left: 2vh;
+  @media screen and (min-height: 950px) {
+    padding-left: 1vh;
+  }
 }
 #contact-nav {
   background: linear-gradient(90deg, #004953 70%, transparent);
@@ -215,6 +221,6 @@ ul li::before {
 .contact-links {
   color: #f6ae2d;
 }
- footer{
+footer {
   text-align: center;
- }
+}
